@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ipod{
+    height: 500px;
+    width: 350px;
+    position: relative;
+    margin-top: 10px;
+}
+.screen{
+    background-color:white;
+    position: absolute;
+    width: 85%;
+    height: 45%;
+    border-radius: 3%;
+    top: 28px;
+    left: 151px;
+}
+
+.controls{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    top: 310px;
+    left: 190px;
+    border-radius: 50%;
+}
+.controls:focus{
+    outline: none;
+}
+
+
+.small-button{
+    height: 40%;
+    width: 40%;
+    background-color: transparent;
+    border-radius:50%;    
+    position: absolute;
+    top: 33%;
+    left: 30%;
+    border: none;
+}
+
+.small-button:hover{
+    cursor: pointer;
+}
+.small-button:focus{
+    outline: none;
+}
+
+.screen-elements{
+    padding: 15px;
+}
+
+.newScreen{
+    visibility: hidden;
+    height: 0%;
+    border-bottom:2px solid grey;
+    position: relative;
+    top:6.3%;
+    background-color:white;
+    border-radius: 3%;
+    margin:auto;
+    align-content: center;
+}
+
+#menu-button{
+    color: rgb(128, 128, 145);
+    position: absolute;
+    height: 35px;
+    width: 55px;
+    left: 36.5%;
+    top:5%;
+    border: none;
+    background-color:white;
+    font-weight: bolder;
+    z-index: 1;
+}
+#menu-button:hover{
+    cursor: pointer;
+}
+
+#title{
+    margin: auto;
+}
